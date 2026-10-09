@@ -1,0 +1,20 @@
+[
+  {"name": "bug", "color": "d73a4a", "description": "Something is broken"},
+  {"name": "feature", "color": "a2eeef", "description": "A requested change or addition"},
+  {"name": "triage", "color": "fbca04", "description": "New, not yet reviewed"},
+  {"name": "needs-info", "color": "d4c5f9", "description": "Waiting for more details from the reporter"},
+  {"name": "confirmed", "color": "b60205", "description": "Reproduced by the developer"},
+  {"name": "planned", "color": "0e8a16", "description": "Accepted and scheduled"},
+  {"name": "fixed-next-release", "color": "1d76db", "description": "Fixed, ships in the next update"},
+  {"name": "duplicate", "color": "cfd3d7", "description": "Already reported"},
+  {"name": "wontfix", "color": "ffffff", "description": "Will not be changed"},
+  {"name": "area:account", "color": "c5def5", "description": "Login and account"},
+  {"name": "area:world", "color": "c5def5", "description": "World, maps and movement"},
+  {"name": "area:npc", "color": "c5def5", "description": "NPCs and dialogue"},
+  {"name": "area:multiplayer", "color": "c5def5", "description": "Other players and presence"},
+  {"name": "area:battle", "color": "c5def5", "description": "Battles"},
+  {"name": "area:party", "color": "c5def5", "description": "Party, Eldryn and inventory"},
+  {"name": "area:ui", "color": "c5def5", "description": "Menus and interface"},
+  {"name": "area:audio", "color": "c5def5", "description": "Sound and music"},
+  {"name": "area:performance", "color": "c5def5", "description": "Performance and crashes"}
+]

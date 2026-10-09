@@ -1,0 +1,49 @@
+name: Feature request
+description: Suggest a specific change or addition to the game.
+title: "[Feature] "
+labels: ["feature", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For open-ended ideas or general feedback, Discussions is a better fit.
+        Please search existing issues first and 👍 a matching one instead of opening a duplicate.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - World / exploration
+        - NPCs / dialogue / quests
+        - Multiplayer / social
+        - Battles
+        - Eldryn / catching / party
+        - UI / menus
+        - Audio
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe what's missing or frustrating today.
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should the game do instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+    validations:
+      required: false

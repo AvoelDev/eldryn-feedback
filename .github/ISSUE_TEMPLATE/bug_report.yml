@@ -1,0 +1,93 @@
+name: Bug report
+description: Something in the game is broken or not working as expected.
+title: "[Bug] "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please search existing issues first.
+        **Security problems** (account takeover, exploits, cheating) must be reported privately — see SECURITY.md.
+        Never post passwords, login emails or session tokens.
+
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Shown in the game window's title bar.
+      placeholder: "e.g. 0.28.0-alpha.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the game is affected?
+      options:
+        - Login / account
+        - World / movement
+        - NPCs / dialogue
+        - Multiplayer / other players
+        - Battles
+        - Party / inventory
+        - UI / menus
+        - Audio
+        - Performance / crashes
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The more precise, the faster it gets fixed. Include the map/town and roughly where you were.
+      placeholder: |
+        1. Enter Sefira Town
+        2. Walk to ...
+        3. Press ...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Sometimes
+        - Happened once
+    validations:
+      required: true
+
+  - type: input
+    id: system
+    attributes:
+      label: Operating system
+      placeholder: "e.g. Windows 11"
+    validations:
+      required: false
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots, video or logs
+      description: Drag files here. Check that nothing personal is visible.
+    validations:
+      required: false
