@@ -2,7 +2,7 @@
 
 This is the public place to report bugs and suggest features for **ELDRYN**.
 
-The game's source code is private. Issues filed here are read by the developer and linked to internal work. When a fix ships, the matching issue here is closed.
+The game's server source code is private. Issues filed here are read by the developer and linked to internal work. When a fix ships, the matching issue here is closed.
 
 ## Report a bug
 
